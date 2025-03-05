@@ -2,13 +2,13 @@
 
 ## 项目介绍
 
-本项目是一个基于React+Next.js+TailwindCSS+TypeScript+Shadcn/UI的TodoApp，后端使用Python+FastAPI。其主要功能是：
+本项目是一个基于React+Next.js+TailwindCSS+TypeScript+Shadcn/UI的移动电商APP，后端使用Python+FastAPI。其主要功能是：
 
-- 添加、编辑、删除、查看Todo
-- 添加、编辑、删除、查看Todo分类
-- 添加、编辑、删除、查看Todo标签
-- 添加、编辑、删除、查看Todo提醒
-- 添加、编辑、删除、查看Todo备忘录
+- 添加、编辑、删除、查看产品
+- 添加、编辑、删除、查看产品分类
+- 添加、编辑、删除、查看产品标签
+- 购买和出售产品
+- 买卖家的交流
 
 ![原型图]()
 
@@ -23,7 +23,7 @@
 
 ```mermaid
 mindmap
-  root((TodoApp))
+  root((电商平台))
     技术栈
       前端
         React
@@ -42,37 +42,33 @@ mindmap
         JWT认证
         Alembic(数据库迁移)
     功能模块
-      Todo管理
-        添加Todo
-        编辑Todo
-        删除Todo
-        查看Todo
-        状态切换
+      商品管理
+        添加商品
+        编辑商品
+        删除商品
+        查看商品
+        价格切换
         优先级管理
       分类管理
         创建分类
         编辑分类
         删除分类
         分类筛选
-        颜色标记
       标签管理
         添加标签
         编辑标签
         删除标签
         标签关联
-        标签云展示
       提醒管理
-        设置提醒
-        修改提醒
-        删除提醒
+        发货提醒
+        到货提醒
+        降价提醒
         提醒通知
-        Calendar集成
-      备忘录
-        富文本编辑
+      聊天界面
+        文本编辑
         附件上传
-        版本历史
+        打赏功能
         分享功能
-        全文搜索
     测试方案
       单元测试
         Jest(前端)
