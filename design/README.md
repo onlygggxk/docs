@@ -5,12 +5,12 @@
 
 ## 概念设计
 
-![](./design/concept.jpg)
+![](./concept.jpg)
 
 ## 网站(App)地图
 
 ![](./site-map.webp)
-> 这里除了图片外还应当对每幅图进行文字说明。
+
 
 ## 线框图
 
