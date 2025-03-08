@@ -5,7 +5,7 @@
 
 ## 概念设计
 
-![](./concept.jpg)
+![](./design/concept.jpg)
 
 ## 网站(App)地图
 
