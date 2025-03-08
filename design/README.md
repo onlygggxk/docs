@@ -5,7 +5,7 @@
 
 ## 概念设计
 
-![](./concept-testing.webp)
+![](./concept.jpg)
 
 ## 网站(App)地图
 
