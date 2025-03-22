@@ -2,6 +2,6 @@
 
 ## RESTful API
 
-RESTful API可以用OpenAPI定义，参见 [openapi.yaml](openapi.yaml)，文档参见[Todo.md](./Todo.md)。
+核心功能参见 [function.md](function.md)，文档参见[Todo.md](./Todo.md)。
 
-在线预览： https://dm7m2v24p4.apifox.cn/
+响应测试参见 [Response testing.md](Response testing.md)
