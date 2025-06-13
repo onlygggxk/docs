@@ -5,15 +5,18 @@
 ```mermaid
 flowchart TB
     subgraph 客户端
-        A[Web端React+Ant Design] -->|HTTP API| D
+        A[Web端Vue+ElementUI] -->|HTTP API| D
+        B[小程序Uni-app] -->|HTTP API| D
     end
 
     subgraph 服务端
-        D[NestJS API Server] --> E[业务模块]
+        D[SpringBoot API Server] --> E[业务模块]
         E --> F[用户鉴权]
-        E --> G[商品管理]
-        E --> H[数据同步]
-        D --> I[(MongoDB)]
+        E --> G[健康数据管理]
+        E --> H[心理测试管理]
+        E --> I[教师端管理]
+        E --> J[管理端管理]
+        D --> K[(MySQL)]
     end
 
     subgraph 基础设施
@@ -25,9 +28,9 @@ flowchart TB
 
     style D fill:#F0F4C3
     style E fill:#C8E6C9
-    style I fill:#BBDEFB
+    style K fill:#BBDEFB
     classDef tech fill:#fff,stroke:#666;
-    class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P tech
+    class A,B,D,E,F,G,H,I,J,K,L,M,N,O,P tech
 ```
 
 ## 技术栈选择依据：
